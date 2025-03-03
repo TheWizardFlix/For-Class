@@ -1,0 +1,24 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: Tahoma, san-serif;
+}
+.little { 
+  width: 100px;
+}
+#big { 
+  width: 500px;
+}
+.par1 {
+  color: darkviolet;
+font: bold;
+}
+.par2 {
+  color: crimson;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.par3 {
+  color: darkblue;
+}
