@@ -1,9 +1,23 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url("aAnotherTag.otf");
+}
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 html {
   height: 100%;
   width: 100%;
 }
 body {
-  font-family: Tahoma, san-serif;
+  font-family: myFirstFont, san-serif;
 }
 .little { 
   width: 100px;
@@ -17,7 +31,7 @@ font: bold;
 }
 .par2 {
   color: crimson;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-family: roboto-<uniquifier>;
 }
 .par3 {
   color: darkblue;
